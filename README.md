@@ -1,2 +1,2 @@
 # Scan-IP
-Validate and scan IPs, and saves to a new .txt file with timestamps.
+Validate and scan IPs, then saves it to a new .txt file with timestamps.

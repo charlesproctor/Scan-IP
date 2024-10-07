@@ -45,7 +45,7 @@ else:
     scanFile.write(f"host {host} is not responding. Scan aborted")
     scanFile.close()
     exit()
-for x in range(50, 55):     #use 1, 1025 , 50 55 is shorter for testing
+for x in range(50, 1025):     #use 1, 1025 , 50 is shorter for testing
     if scanPort(host, x):
         print("port ", x, " is open", "\n")
         scanFile.write(f"Port {x} is open \n")
